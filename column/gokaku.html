@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五格とは？天格・地格・人格・外格・総格をわかりやすく解説｜ルル・プティの名前占い</title>
+  <meta name="description" content="姓名判断の基本「五格」とは何か？天格・地格・人格・外格・総格それぞれの意味と計算方法、運勢への影響をわかりやすく解説します。">
+  <meta name="keywords" content="五格,天格,地格,人格,外格,総格,姓名判断,意味,計算方法">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://lulu-uranai.github.io/name-fortune/column/gokaku.html">
+  <meta property="og:title" content="五格とは？天格・地格・人格・外格・総格をわかりやすく解説">
+  <meta property="og:description" content="姓名判断の基本「五格」とは何か？それぞれの意味と計算方法をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://lulu-uranai.github.io/name-fortune/column/gokaku.html">
+  <meta property="og:image" content="https://lulu-uranai.github.io/name-fortune/chara2.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "五格とは？天格・地格・人格・外格・総格をわかりやすく解説",
+    "description": "姓名判断の基本「五格」とは何か？天格・地格・人格・外格・総格それぞれの意味と計算方法を解説します。",
+    "url": "https://lulu-uranai.github.io/name-fortune/column/gokaku.html",
+    "inLanguage": "ja",
+    "publisher": { "@type": "Organization", "name": "ルル・プティの名前占い" }
+  }
+  </script>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .article-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 1.2rem 5rem;
+    }
+    .article-breadcrumb {
+      font-size: 0.75rem;
+      color: rgba(200,180,255,0.45);
+      margin-bottom: 2rem;
+      letter-spacing: 0.05em;
+    }
+    .article-breadcrumb a {
+      color: rgba(200,180,255,0.55);
+      text-decoration: none;
+    }
+    .article-breadcrumb a:hover { color: rgba(200,180,255,0.9); }
+    .article-breadcrumb span { margin: 0 0.4rem; }
+    .article-tag {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 3px 10px;
+      background: rgba(100,60,180,0.3);
+      border: 1px solid rgba(180,130,255,0.3);
+      border-radius: 20px;
+      color: rgba(200,180,255,0.8);
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+    }
+    .article-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+      background: linear-gradient(135deg, #f0d080 0%, #e890cc 60%, #c8a8ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 0.1em;
+      line-height: 1.5;
+      margin-bottom: 0.8rem;
+    }
+    .article-meta {
+      color: rgba(200,180,255,0.4);
+      font-size: 0.75rem;
+      margin-bottom: 2.5rem;
+      letter-spacing: 0.05em;
+    }
+    .article-card {
+      background: linear-gradient(145deg, rgba(28,16,52,0.92), rgba(22,12,42,0.96));
+      border: 1px solid rgba(120,80,200,0.25);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .article-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, rgba(200,150,255,0.5), transparent);
+    }
+    .article-card h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.1rem;
+      color: #c8a8ff;
+      margin-bottom: 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(120,80,200,0.2);
+      letter-spacing: 0.08em;
+    }
+    .article-card h2::before {
+      content: '✦ ';
+      color: #d4a84c;
+      font-size: 0.8rem;
+    }
+    .article-card p {
+      color: rgba(220,200,255,0.82);
+      font-size: 0.88rem;
+      line-height: 2;
+      margin-bottom: 0.8rem;
+    }
+    .article-card p:last-child { margin-bottom: 0; }
+    .kaku-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 0.5rem;
+    }
+    .kaku-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(0,0,0,0.2);
+    }
+    .kaku-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      color: #fff;
+      margin-top: 2px;
+    }
+    .kaku-ten  { background: linear-gradient(135deg, #5060c0, #3040a0); }
+    .kaku-chi  { background: linear-gradient(135deg, #208060, #106040); }
+    .kaku-nin  { background: linear-gradient(135deg, #a04020, #804010); }
+    .kaku-gai  { background: linear-gradient(135deg, #606060, #404040); }
+    .kaku-so   { background: linear-gradient(135deg, #a04080, #802060); }
+    .kaku-body {}
+    .kaku-name {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 0.95rem;
+      color: #f0e8ff;
+      margin-bottom: 4px;
+    }
+    .kaku-desc {
+      font-size: 0.82rem;
+      color: rgba(200,180,255,0.7);
+      line-height: 1.75;
+    }
+    .calc-box {
+      background: rgba(201,168,76,0.07);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-top: 12px;
+      font-size: 0.82rem;
+      color: rgba(240,220,180,0.85);
+      line-height: 1.85;
+    }
+    .calc-box strong { color: #f0d080; }
+    .point-box {
+      background: rgba(100,50,200,0.12);
+      border-left: 3px solid #c8a8ff;
+      border-radius: 0 10px 10px 0;
+      padding: 12px 16px;
+      margin-top: 12px;
+      font-size: 0.84rem;
+      color: rgba(220,200,255,0.85);
+      line-height: 1.85;
+    }
+    .nav-links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2.5rem;
+    }
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1.5rem;
+      background: linear-gradient(135deg, rgba(100,60,180,0.4), rgba(60,30,120,0.4));
+      border: 1px solid rgba(180,130,255,0.35);
+      border-radius: 40px;
+      color: #c8a8ff;
+      font-size: 0.85rem;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .nav-btn:hover {
+      background: linear-gradient(135deg, rgba(130,80,220,0.55), rgba(90,50,170,0.55));
+      border-color: rgba(200,160,255,0.6);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header style="padding: 2rem 1rem; justify-content: center;">
+    <div class="header-inner">
+      <p class="header-chara-byline">ルル・プティ の</p>
+      <h1>名前占い</h1>
+    </div>
+  </header>
+
+  <div class="article-wrap">
+    <p class="article-breadcrumb">
+      <a href="../index.html">トップ</a>
+      <span>›</span>
+      <a href="index.html">コラム</a>
+      <span>›</span>
+      五格とは？
+    </p>
+
+    <span class="article-tag">基礎知識</span>
+    <h1 class="article-title">五格とは？<br>天格・地格・人格・外格・総格をわかりやすく解説</h1>
+    <p class="article-meta">公開日：2026年6月13日</p>
+
+    <!-- 導入 -->
+    <div class="article-card">
+      <h2>姓名判断の核心「五格」とは</h2>
+      <p>姓名判断では、名前の画数を5つの「格（かく）」に分けて運勢を読み解きます。これを「<strong>五格（ごかく）</strong>」と呼びます。五格は日本の姓名判断の基本であり、熊崎健翁が体系化した「熊崎式」においても中心的な概念です。</p>
+      <p>それぞれの格は、人生の異なる側面や時期に影響を与えるとされています。五格をすべて把握することで、名前が持つ運命の全体像を読み解くことができます。</p>
+    </div>
+
+    <!-- 五格の一覧 -->
+    <div class="article-card">
+      <h2>五格それぞれの意味</h2>
+      <div class="kaku-grid">
+
+        <div class="kaku-item">
+          <span class="kaku-badge kaku-ten">天格</span>
+          <div class="kaku-body">
+            <p class="kaku-name">天格（てんかく）― 先祖から受け継いだ宿命的な運</p>
+            <p class="kaku-desc">姓（苗字）の漢字すべての画数を合計した数です。先祖から受け継いだ宿命的な運気を示し、自分では変えることができない「家の運」を表します。天格単独では運勢の良し悪しよりも、他の格との兼ね合いで全体のバランスを見る格とされています。</p>
+            <div class="calc-box"><strong>計算方法：</strong>姓の漢字すべての画数を足す<br>例）山田 → 山(3画)＋田(5画)＝ <strong>8</strong></div>
+          </div>
+        </div>
+
+        <div class="kaku-item">
+          <span class="kaku-badge kaku-chi">地格</span>
+          <div class="kaku-body">
+            <p class="kaku-name">地格（ちかく）― 幼少期〜青年期の基礎運・性格</p>
+            <p class="kaku-desc">名（名前）の漢字すべての画数を合計した数です。幼少期から青年期にかけての運気・性格・健康運・家庭運・友人関係などに影響するとされます。その人の素の性質や内面を表す格でもあります。</p>
+            <div class="calc-box"><strong>計算方法：</strong>名の漢字すべての画数を足す<br>例）太郎 → 太(4画)＋郎(9画)＝ <strong>13</strong></div>
+          </div>
+        </div>
+
+        <div class="kaku-item">
+          <span class="kaku-badge kaku-nin">人格</span>
+          <div class="kaku-body">
+            <p class="kaku-name">人格（じんかく）― 一生で最も影響が大きい「主運」</p>
+            <p class="kaku-desc">姓の最後の一字と名の最初の一字の画数を合計した数です。五格の中で最も影響力が大きく「主運（ぬしうん）」とも呼ばれます。その人の性格・仕事運・対人運・才能を最も強く表す格です。名前を決める際に最も重視される格のひとつです。</p>
+            <div class="calc-box"><strong>計算方法：</strong>姓の最後の字 ＋ 名の最初の字<br>例）山田太郎 → 田(5画)＋太(4画)＝ <strong>9</strong></div>
+          </div>
+        </div>
+
+        <div class="kaku-item">
+          <span class="kaku-badge kaku-gai">外格</span>
+          <div class="kaku-body">
+            <p class="kaku-name">外格（がいかく）― 社会での立場・対外的な運気</p>
+            <p class="kaku-desc">姓の最初の一字と名の最後の一字の画数を合計した数です（1文字の場合は＋1で計算）。社会における立場、周囲からの評判、対人関係や社交性などに影響するとされます。家庭の外、社会的な場面での運気を表す格です。</p>
+            <div class="calc-box"><strong>計算方法：</strong>姓の最初の字 ＋ 名の最後の字<br>例）山田太郎 → 山(3画)＋郎(9画)＝ <strong>12</strong></div>
+          </div>
+        </div>
+
+        <div class="kaku-item">
+          <span class="kaku-badge kaku-so">総格</span>
+          <div class="kaku-body">
+            <p class="kaku-name">総格（そうかく）― 晩年の運と人生全体の総合運</p>
+            <p class="kaku-desc">姓名すべての漢字の画数を合計した数です。特に中年以降・晩年の運勢に影響するとされ、人生全体のまとめとなる格です。若い頃は影響が薄くても、年を重ねるにつれて強く現れると言われています。</p>
+            <div class="calc-box"><strong>計算方法：</strong>姓名すべての漢字の画数を足す<br>例）山田太郎 → 3＋5＋4＋9＝ <strong>21</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 五格のバランス -->
+    <div class="article-card">
+      <h2>五格は「バランス」で見ることが大切</h2>
+      <p>五格はそれぞれ単独で判断するのではなく、全体のバランスを見ることが重要です。すべての格が大吉である名前は珍しく、どこかが吉でどこかが末吉・凶であっても、補い合うことで全体的に良いバランスになる場合もあります。</p>
+      <p>特に「人格」は五格の中で最も重視される格です。人格が吉数であれば、他の格に凶数があっても全体的に安定しやすいと言われています。</p>
+      <div class="point-box">
+        💡 <strong>ポイント</strong>：姓名判断では「人格」が最重要。次いで「総格」「地格」の順で重視されることが多いです。名前を決める際は、この3つを特に意識するとよいでしょう。
+      </div>
+    </div>
+
+    <!-- まとめ -->
+    <div class="article-card">
+      <h2>まとめ：五格を使った姓名判断の見方</h2>
+      <p>五格を理解すると、姓名判断の結果をより深く読み解けるようになります。ぜひ、ルル・プティの名前占いで実際に自分の名前を診断してみてください。</p>
+      <p>五格それぞれの運勢と、全体のバランスをあわせて確認することで、名前が持つ運命の全体像が見えてきます。</p>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html" class="nav-btn">← コラム一覧に戻る</a>
+      <a href="../index.html" class="nav-btn">🔮 名前占いを試す</a>
+      <a href="kikaku.html" class="nav-btn">次の記事：吉数・凶数一覧 →</a>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-disclaimer">占いの結果は、未来を決定づけるものではなく、選択肢のひとつのヒントです。<br>大切なご決断の際は、ご自身の直感や素晴らしい選択を信じて進んでください。</p>
+    <nav class="footer-nav">
+      <a href="../privacy.html" class="footer-nav-link">プライバシーポリシー</a>
+    </nav>
+    <p class="footer-copy">© ルル・プティの名前占い</p>
+  </footer>
+
+  <script>
+    (function() {
+      const field = document.createElement('div');
+      field.className = 'star-field';
+      document.body.prepend(field);
+      const colors = ['#ffffff','#ffffff','#f8d0ff','#e0d0ff','#ffffd8'];
+      for (let i = 0; i < 80; i++) {
+        const s = document.createElement('div');
+        s.className = 'star-dot';
+        const sz = Math.random() < 0.7 ? 1 : 2;
+        s.style.cssText = [
+          `left:${(Math.random()*100).toFixed(1)}%`,
+          `top:${(Math.random()*100).toFixed(1)}%`,
+          `width:${sz}px`, `height:${sz}px`,
+          `background:${colors[Math.floor(Math.random()*colors.length)]}`,
+          `animation-delay:${(Math.random()*6).toFixed(2)}s`,
+          `animation-duration:${(2+Math.random()*5).toFixed(2)}s`
+        ].join(';');
+        field.appendChild(s);
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
   <!-- トップページ -->
   <url>
     <loc>https://lulu-uranai.github.io/name-fortune/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,6 +15,54 @@
     <lastmod>2026-06-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <!-- コラム一覧 -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- コラム：五格とは -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/gokaku.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- コラム：吉数・凶数一覧 -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/kikaku.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- コラム：赤ちゃんの命名と画数 -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/naming.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- コラム：姓名判断の歴史 -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/rekishi.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- コラム：結婚後の姓名判断 -->
+  <url>
+    <loc>https://lulu-uranai.github.io/name-fortune/column/kekkon.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
